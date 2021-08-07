@@ -1,0 +1,175 @@
+body, html {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    background-color: #dfc656;
+  }
+  
+  /* NAV BAR*/
+  .topnav {
+    /* background-color: rgb(255, 255, 255); */
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #403f4c;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.487);
+    /* color: rgb(255, 255, 255); */
+  }
+  
+  /* Add an active class to highlight the current page */
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {
+      display: none;
+    }
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {
+      position: relative;
+    }
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+  .d-playcount{
+    position: absolute;
+    font-family: "Roboto", sans-serif;
+    top: 0%;
+    right: 5%;
+    color: #403f4c;
+  }
+  
+  @media screen and (min-width: 600px) {
+  .banner {
+    /* background-image: url("../img/other/3551518.jpg"); */
+    height: 75%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .a-connect {
+    position: absolute;
+    right: 15%;
+    top: 0%;
+    text-decoration: none;
+    color: #403f4c;
+    
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+  .logo-text {
+    font-family: 'Roboto Mono', monospace;
+    position: absolute;
+    top: 43%;
+    left: 45%;
+    color: #403f4c;
+  }
+  .text-mp {
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    position: absolute;
+    top: 49%;
+    left: 42%;
+    width: 500px;
+    color: #403f4c;
+  }
+  .ft-main{
+    text-decoration: none;
+    color: white;
+  }
+  footer {
+    display: block;
+    position: absolute;
+    text-align: center;
+    /* padding: 3px; */
+    background-color: #403f4c;
+    color: white;
+    bottom: 0%;
+    width: 100%;
+  }
+  }
+  @media screen and (max-width: 600px) {
+    .srp-Logo {
+      position: absolute;
+      top: 200px;
+      left: 175px;
+      width: 250px;
+      transform: translate(-50%, -50%);
+    }
+    .logo-text {
+      font-family: 'Roboto Mono', monospace;
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #403f4c;
+    }
+    .text-mp {
+      font-family: 'Noto Sans JP', sans-serif;
+      text-align: left;
+      position: absolute;
+      top: 425px;
+      left: 39px;
+      width: 333px;
+      color: #403f4c;
+    }
+    .d-playcount{
+      position: absolute;
+      right: 15%;
+    }
+    .ft-main{
+      text-align: center;
+      position: absolute;
+      bottom: 0%;
+      /* background-color: #403f4c; */
+      /* width: 100%; */
+      left: 125px;
+    }
+  }
+  /* SCROLLBAR */
+  ::-webkit-scrollbar {
+    border-radius: 5px;
+    bottom: 2%;
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    bottom: 2%;
+    border-radius: 5px;
+    background: #888;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; /*test*/
+  }
+  
